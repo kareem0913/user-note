@@ -47,5 +47,28 @@ This project is a user authentication system with APIs and a CRUD note applicati
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/yourproject.git
+git clone https://github.com/kareem0913/user-note.git
 cd yourproject
+
+```bash
+composer install
+
+```bash
+npm install
+
+```bash
+cp .env.example .env
+
+```bash
+php artisan key:generate
+
+```bash
+php artisan migrate
+
+```bash
+php artisan serve
+
+```bash
+npm run dev
+
+
