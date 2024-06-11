@@ -44,31 +44,13 @@ This project is a user authentication system with APIs and a CRUD note applicati
 
 ## Setup Instructions
 
-### Clone the Repository
 
-```bash
-git clone https://github.com/kareem0913/user-note.git
-cd yourproject
+## Getting Started
 
-```bash
-composer install
+To get a copy of the backend up and running on your local machine for development and testing purposes, follow these steps:
 
-```bash
-npm install
-
-```bash
-cp .env.example .env
-
-```bash
-php artisan key:generate
-
-```bash
-php artisan migrate
-
-```bash
-php artisan serve
-
-```bash
-npm run dev
-
-
+1. Clone this repository.
+2. Install dependencies using `composer install`.
+3. Configure your `.env` file with necessary environment variables.
+4. Run database migrations with `php artisan migrate`.
+5. Start the development server with `php artisan serve`.
